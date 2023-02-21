@@ -19,5 +19,5 @@ http://localhost:8888/?token=47c55bf7a180328e1198b8a58ee42a16f46f6797e5ed4a1a
 dataframe doc
 https://www.w3schools.com/python/pandas/pandas_ref_dataframe.asp
 
-
-git remote add origin https://adrianodonisete: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@github.com/adrianodonisete/python-panda-data-science-basics.git
+git
+https://github.com/adrianodonisete/python-panda-data-science-basics/tree/master/notebooks
