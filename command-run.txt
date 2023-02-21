@@ -1,0 +1,20 @@
+docker run -i -t -p 8888:8888 continuumio/miniconda3 /bin/bash -c "\
+    conda install jupyter -y --quiet && \
+    mkdir -p /opt/notebooks && \
+    jupyter notebook \
+    --notebook-dir=/opt/notebooks --ip='*' --port=8888 \
+    --no-browser --allow-root"
+
+
+# access container
+docker exec -it 52621016eaf2 sh
+
+# listando notebooks
+jupyter notebook list
+
+# acessando anaconda
+http://localhost:8888/?token=47c55bf7a180328e1198b8a58ee42a16f46f6797e5ed4a1a
+
+
+dataframe doc
+https://www.w3schools.com/python/pandas/pandas_ref_dataframe.asp
